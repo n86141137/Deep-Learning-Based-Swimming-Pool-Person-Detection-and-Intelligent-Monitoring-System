@@ -1,0 +1,13 @@
+# 1. 資料集根目錄 (請確保此路徑正確且不包含中文字元以免發生意外)
+path: "C:/Users/doong/Desktop/mengyuan/yolo/yolov8/swimmingpool dataset0429"
+
+# 2. 訓練與驗證路徑
+train: train/images
+val: val/images
+test: test/images
+
+# 3. 類別數量
+nc: 3
+
+# 4. 類別名稱
+names: ['Observer', 'Swimmer', 'Child']
